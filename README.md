@@ -16,7 +16,7 @@ Ankan works as Developer with emailid ank@ibm.com and earns 5k per annum.
    Create Student class with sname,degree and college with getter/setter
    Now create another class having 2 static methods to create relationship b/w both 
    The O/P should look like following:
-   Ankan takes java class under Amitava Sir
+   Ankan takes java class under Amitava Sir ,
    Amitava teaches OOPS design to Madhu who reads as Btech Student in UEM college
 
 3. Write a Java program to create a class called "Book" with attributes for title, author, and ISBN, and methods to add and remove books given from command prompt also using JOptionPane.
