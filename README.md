@@ -4,7 +4,7 @@
 # Submission Date : 16/01/2025
 # Teacher - Mr. Amitava Chattopadhyay
 
-********************************************************************************************************************************
+*************************************************************************************************************************************************************
 Questions : 
 
 1. Create a Employee class with ename,designation,salary,email as instance variables.
@@ -40,4 +40,4 @@ Ankan works as Developer with emailid ank@ibm.com and earns 5k per annum.
 
 10. Create a class that will apply a tax of 10% to the basic salary and give a bonus of 2% of basic salary and add a travelling allowance of 1.5% of basic salary. Now find the annual salary of the employee.
 
-********************************************************************************************************************************
+*************************************************************************************************************************************************************
