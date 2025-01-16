@@ -23,7 +23,6 @@ class Book {
         return isbn;
     }
 
-    @Override
     public String toString() {
         return "Book [Title: " + title + ", Author: " + author + ", ISBN: " + isbn + "]";
     }
@@ -38,7 +37,7 @@ public class BookManager {
         while (true) {
             String choice = JOptionPane.showInputDialog(menu);
             switch (choice) {
-                case "1": // Add Book
+                case "1": //To Add Books
                     if (bookCount >= books.length) {
                         JOptionPane.showMessageDialog(null, "Library is full! Cannot add more books.");
                         break;
@@ -50,7 +49,7 @@ public class BookManager {
                     JOptionPane.showMessageDialog(null, "Book added successfully!");
                     break;
 
-                case "2": // Remove Book
+                case "2": //To Remove Book
                     String isbnToRemove = JOptionPane.showInputDialog("Enter ISBN of the Book to Remove:");
                     boolean found = false;
                     for (int i = 0; i < bookCount; i++) {
@@ -67,7 +66,7 @@ public class BookManager {
                     }
                     break;
 
-                case "3": // View All Books
+                case "3": // To View All Books
                     String allBooks = "Books in Library:\n";
                     boolean hasBooks = false;
                     for (int i = 0; i < bookCount; i++) {
