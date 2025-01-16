@@ -49,6 +49,7 @@ public class BookManager {
                     JOptionPane.showMessageDialog(null, "Book added successfully!");
                     break;
 
+
                 case "2": //To Remove Book
                     String isbnToRemove = JOptionPane.showInputDialog("Enter ISBN of the Book to Remove:");
                     boolean found = false;
@@ -66,7 +67,7 @@ public class BookManager {
                     }
                     break;
 
-                case "3": // To View All Books
+                case "3": //To View All Books
                     String allBooks = "Books in Library:\n";
                     boolean hasBooks = false;
                     for (int i = 0; i < bookCount; i++) {
